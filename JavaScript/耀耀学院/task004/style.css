@@ -1,0 +1,29 @@
+body {
+	text-align: center;
+}
+
+#Table {
+	margin: 0 auto;
+}
+
+#Table td {
+    width: 30px;
+    height: 30px;
+}
+
+#buttons {
+	margin: 10px;
+}
+
+.select {
+	background-color: red;
+	position: relative;
+}
+
+#head {
+	background-color: blue;
+	height: 10px;
+	width: 30px;
+	position: absolute;
+	top: 0px;
+}

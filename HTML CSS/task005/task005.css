@@ -1,0 +1,148 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "宋体";
+	background-color: #E0E0E0;
+}
+header {
+	height: 60px;
+	background-color: black;
+}
+header img{
+	height: 60px;
+	width: 160px;
+	background-color: black;
+}
+header a{
+	color: white;
+	text-decoration: none;
+}
+header ul{
+	float: right;
+}
+header ul li{
+    display: inline;
+	margin: 10px;
+}
+article{
+	margin: 20px;
+	margin-right: 445px;
+}
+.part-1{
+	background-color: white;
+	box-shadow: 1px 1px 1px #424242;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+.part-1 img{
+	height: 300px;
+	width: 300px;
+}
+.part-2{
+    background-color: white;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 1px 1px 1px #424242;
+}
+.part-2 img{
+	height: 300px;
+	width: 300px;
+}
+.part-2 ul{
+	list-style: none;
+}
+.part-3{
+    background-color: white;
+	margin-bottom: 20px;
+	padding: 20px;
+	overflow: hidden;
+	box-shadow: 1px 1px 1px #424242;
+}
+.imgs{
+	border: 1px solid #e0e0e0;
+	height: 120px;
+	width: 120px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	float: left;
+	text-align: center;
+}
+.imgs img{
+	height: 70px;
+	width: 70px;
+}
+.imgs p{
+	text-align: center;
+	margin: 6px;
+}
+.part-4{
+    background-color: white;
+	margin-bottom: 20px;
+	padding: 20px;
+	box-shadow: 1px 1px 1px #424242;
+}
+.part-4 table{
+	width: 100%;
+}
+.part-4 .row1{
+	background-color: black;
+}
+.row1 td{
+	color: white;
+}
+.row2{
+	background-color: #e0e0e0;
+}
+aside {
+	background-color: white;
+	width: 365px;
+	height: 500px;
+	margin-bottom: 20px;
+	padding: 20px;
+	position: absolute;
+	top: 80px;
+	right: 20px;
+	box-shadow: 1px 1px 1px #424242;
+}
+.border {
+	width: 4px;
+	height: 40px;
+	background-color: #e0e0e0;
+	float: left;
+}
+aside .title {
+	margin-top: 0;
+	margin-left: 25px;
+}
+aside ul {
+    list-style: none;
+    }
+aside ul li {
+	margin-bottom: 20px;
+}
+aside .inputs {
+	text-align: right;
+	display: inline-block; 
+	width: 40%; 
+
+}
+aside li textarea {
+	vertical-align: text-top;
+}
+aside .submit input{
+	width: 100%;
+	height: 40px;
+	background-color: blue;
+	border-radius: 10px;
+}
+footer{
+	height: 60px;
+	background-color: black;
+}
+footer p{
+	color: white;
+	line-height: 60px;
+	text-align: center;
+	
+	
+}

@@ -1,0 +1,28 @@
+.box {
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+.top {
+	height: 50px;
+	width: 50px;
+	border-radius: 0 0 50px 0;
+	background-color: #fc0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.bottom {
+	height: 50px;
+	width: 50px;
+	border-radius: 50px 0 0 0;
+	background-color: #fc0;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
